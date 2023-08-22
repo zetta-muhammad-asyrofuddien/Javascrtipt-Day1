@@ -52,3 +52,10 @@ console.log(result);
 let names = ['Angela', 'Ben', 'Jenny', 'Michael', 'Chloe'];
 var result2 = names[Math.floor(Math.random() * names.length)] + ' is going to buy lunch today!';
 console.log(result2);
+
+const nick = {
+  nama: 'Asyrof',
+  umur: 12,
+};
+
+console.log(nick.nama + ' Umur ' + nick.umur);
