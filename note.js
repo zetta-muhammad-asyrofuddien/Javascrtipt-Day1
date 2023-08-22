@@ -34,6 +34,7 @@ console.log(hasil3);
 //   console.log(angka2);
 // }
 // mm();
+
 let year = 2022;
 var result;
 if (year % 4 === 0) {
@@ -49,13 +50,15 @@ if (year % 4 === 0) {
 }
 console.log(result);
 
-let names = ['Angela', 'Ben', 'Jenny', 'Michael', 'Chloe'];
+let names = ['Asyrof', 'Guntur', 'Reza', 'Johan', 'Aldi'];
+
 var result2 = names[Math.floor(Math.random() * names.length)] + ' is going to buy lunch today!';
 console.log(result2);
 
 const nick = {
-  nama: 'Asyrof',
+  nama: 'Asyrofuddien',
   umur: 12,
 };
 
-console.log(nick.nama + ' Umur ' + nick.umur);
+console.log('Nama : ' + nick.nama);
+console.log('Umur : ' + nick.umur);
